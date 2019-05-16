@@ -28,7 +28,7 @@ level_<level_num>_<window_x_coord>_<window_y_coord>_<window_size>_<filename>
 
 | Level  |   Zoom Factor |  Window Size | 
 |---|---|---|
-|  7 |  1x |  200  |
+|  7 |  1x |  50  |
 |  6 |  2x |   |
 |   5|  4x |  400 |
 |   4|  8x |   |
