@@ -18,18 +18,37 @@
 - Separting Training, Validation and Test Data
 - Naming convention for stored images
 
+#### Running data extractor by level
+New image files store with the following naming convention:
+```
+level_<level_num>_<window_x_coord>_<window_y_coord>_<window_size>_<filename>
+```
+
+**Sliding Window Size Calculations**
+
+| Level  |   Zoom Factor |  Window Size | 
+|---|---|---|
+|  7 |  1x |  200  |
+|  6 |  2x |   |
+|   5|  4x |  400 |
+|   4|  8x |   |
+|   3|  16x | 800 |
+|   2| 32x |   |
+|   1|  64x |   3200|
+|   0|  128x |   |
+
 ## Model Training at Levels
 - MobileNet and MobileNetV2 for quick models
 - Models stored to Google Cloud Platform
 - Iteration on models with Data Augmentation, Dropouts and Maxpooling
 - Building new CNN based models from scratch
-- 
+- Evaluted with our  metric
 
 ## Evaluation Metric
 - Using a confusion matrix to, in order of priority:
-    - Maximize True Positives
-    - Minimize False Negatives 
-    - Minimize False Positives 
+    - Maximize True Positives (Tumor areas predicted correctly)
+    - Minimize False Negatives (Tumor areas missed by our model)
+    - Minimize False Positives (Non tumor areas predicted as tumors)
 
 ## Making Predictions
   - Making predictions at 3 levels: 3, 5, 7:
