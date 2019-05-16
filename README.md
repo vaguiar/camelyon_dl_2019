@@ -4,7 +4,7 @@
 **Cynthia Clement** - cfc2134   
 **Vineet Aguiar** - vaa2114  
 
-#### Project Walkthrough (Youtube) - https://youtu.be/rvuVWMExFhM
+#### Project Walkthrough (Youtube) - https://youtu.be/bP4B_7zcxCc
 
 ## Overall Approach
 - Understanding starter code
