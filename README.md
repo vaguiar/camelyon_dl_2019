@@ -2,8 +2,8 @@
 
 ### Collaborators:
 **Cynthia Clement** - cfc2134   
-**Vineet Aguiar** - vaa2114
-Youtube: https://youtu.be/rvuVWMExFhM
+**Vineet Aguiar** - vaa2114  
+**Youtube** - https://youtu.be/rvuVWMExFhM
 
 ## Overall Approach
 - Understanding starter code
@@ -48,7 +48,7 @@ level_<level_num>_<window_x_coord>_<window_y_coord>_<window_size>_<filename>
 ## Evaluation Metric
 - Using a confusion matrix to, in order of priority:
     - Maximize True Positives (Tumor areas predicted correctly)
-    - Minimize False Negatives (Tumor areas missed by our model)
+    - Minimize False Negatives (Tumor areas missed by our mode
     - Minimize False Positives (Non tumor areas predicted as tumors)
 
 ## Making Predictions
