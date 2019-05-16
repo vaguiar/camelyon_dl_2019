@@ -3,6 +3,7 @@
 ### Collaborators:
 **Cynthia Clement** - cfc2134   
 **Vineet Aguiar** - vaa2114
+Youtube: https://youtu.be/rvuVWMExFhM
 
 ## Overall Approach
 - Understanding starter code
